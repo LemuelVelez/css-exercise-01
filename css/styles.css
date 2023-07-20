@@ -21,6 +21,7 @@ h1, h2, p{
 
 h1{
     font-size: 40px;
+    margin: 0;
 }
 
 h2{
@@ -36,12 +37,36 @@ hr{
     -moz-box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.75);
 }
 
+ /* lvha*/
+ a:link {
+    color: #FF0000;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #35534a;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #ec0707;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #0000FF;
+  } 
+
 /* CLASSNAME SELECTORS */
 
 .teaMenu {
     background-color: rgba(228, 202, 168, 0.584);
     padding: 20px;
     max-width: 500px;
+}
+
+.top-line{
+    width: 50%;
 }
 
 .established{
@@ -52,6 +77,8 @@ hr{
     /* background-color: greenyellow; */
     display: inline-block;
     font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .teaFlavor, .teaCollection {
@@ -64,4 +91,18 @@ hr{
     /* background-color: lightcoral; */
     text-align: right;
     width: 25%;
+}
+
+/* footer{
+    font-size: 14px;
+}
+
+a{
+    color: darkslategrey;
+    text-decoration: none;
+} */
+
+.bottom-line{
+    margin-top: 25px;
+    margin-bottom: 30px;
 }
